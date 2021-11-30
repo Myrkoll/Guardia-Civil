@@ -1,0 +1,67 @@
+<html>
+<body align="center">
+<form>
+<h1>Trámite de Denuncias</h1>
+<title>Servicio de Denuncias</title>
+
+<style>
+    #denuncia #informacion
+    {
+        float: left;
+        width: 49%;
+    }
+    #denuncia #logo
+    {
+        float: right;
+        width: 49%;
+    }
+</style>
+
+
+
+<div id="denuncia">
+<div id=informacion>
+
+<fieldset>
+<legend>Información Personal</legend>
+
+<p>Nombres y Apellidos <input type="email" name="nombre"></p>
+<p>DNI <input type="text" name="nombre" maxlength="6"></p>
+<p>Sexo:
+    <br>
+      <input type="radio" name="hm" value="h" required> Hombre
+    <br>
+      <input type="radio" name="hm" value="m" required> Mujer
+    </p>
+<p>Imagen/Prueba: <input type="text" name="foto"><input type="file" name="archivo"></p>
+<input type="checkbox" name="casilla">Denuncia Anónima (Opcional)
+
+</fieldset>
+</div>
+
+<div id="logo">
+<img src="https://www.comprarbanderas.es/images/banderas/400/21798-guardia-civil_400px.jpg">
+
+</div>
+</div>
+
+
+
+<br>
+<textarea rows="20" cols="222">Información Adicional:</textarea>
+
+
+
+
+
+
+
+
+
+
+<br>
+<button onclick="location.href='https://i.pinimg.com/originals/6c/f4/4d/6cf44dbf4bfeed32c32618318a80fc63.png'">ENVIAR DENUNCIA</button>
+<input type="reset" value="Resetear">
+</form>
+</body>
+<html>
